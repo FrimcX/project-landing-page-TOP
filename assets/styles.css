@@ -26,6 +26,8 @@ body {
     gap: 70px;
 }
 
+/* ---------------------- HEADER ----------------------------- */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +47,8 @@ body {
 a {
     text-decoration: none;
 }
+
+/* ---------------------- HERO MAIN -----------------------------*/
 
 .hero-main {
     display: flex;
@@ -89,6 +93,8 @@ h1 {
     flex: 1;
 }
 
+/* ------------- RANDOM INFO SECTION --------------------- */
+
 .random-info {
     padding: 50px 200px 120px 200px;
     text-align: center;
@@ -116,4 +122,25 @@ h1 {
     height: 160px;
     border-radius: 15px;
     object-fit: cover;
+}
+
+/* ----------------------- INSPIRING QUOTE ------------------------*/
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+}
+
+.inspiring-quote-text { 
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.inspiring-quote-author {
+    font-weight: 900;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 80px;
 }
