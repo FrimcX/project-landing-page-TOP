@@ -144,3 +144,30 @@ h1 {
     text-align: right;
     padding-right: 80px;
 }
+
+/*------------------------ CALL TO ACTION -----------------------*/
+
+.call-to-action {
+    padding: 80px 180px;
+}
+
+.call-to-action-background {
+    background-color: #3882F6;
+    color: #fff;
+    padding: 40px 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action-text h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.sign-up-call-to-action {
+    border: 2px solid #fff;
+    padding: 0px 28px;
+    height: 38px;
+}
