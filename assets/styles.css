@@ -171,3 +171,18 @@ h1 {
     padding: 0px 28px;
     height: 38px;
 }
+
+/* --------------------- FOOTER ------------------------------*/
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+
+}
