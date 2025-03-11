@@ -88,3 +88,32 @@ h1 {
     width: 300px;
     flex: 1;
 }
+
+.random-info {
+    padding: 50px 200px 120px 200px;
+    text-align: center;
+}
+
+.random-info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.img-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.img-gallery-item {
+    width: 160px;
+}
+
+.img-gallery-item img {
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    object-fit: cover;
+}
